@@ -1,0 +1,31 @@
+# ===== Backend (Python) =====
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/.env
+backend/temp_repo/
+
+# ===== Frontend (Node/React) =====
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# ===== Editor =====
+.vscode/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Testing/temp files =====
+backend/test_git.py
+backend/test_db.py
+
+# ===== PostgreSQL Migration Backups =====
+backend/alembic_postgres_backup/
+backend/alembic_postgres_backup.ini
+backend/analysis_postgres_backup_final.py
+backend/app/api/analysis_postgres_backup.py
+backend/app/core/config_postgres_backup.py
+backend/app/models_postgres_backup/
